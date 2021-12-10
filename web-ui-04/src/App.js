@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import NavBar from './Component/NavBar'
+import Section from './Component/Section'
 
 export default class App extends Component {
 
@@ -8,6 +9,7 @@ export default class App extends Component {
     return (
       <div>
         <NavBar/>
+        <Section/>
       </div>
     )
   }
